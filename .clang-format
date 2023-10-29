@@ -1,6 +1,13 @@
 Language: Cpp
-BasedOnStyle: Google
+BasedOnStyle: Microsoft
 IndentWidth: '4'
 UseTab: Never
-TabWidth: '6'
+TabWidth: '4'
 BreakBeforeBraces: Allman
+ColumnLimit: '140'
+AccessModifierOffset: '-4'
+SortIncludes: false
+AllowShortBlocksOnASingleLine: false
+AlignAfterOpenBracket: DontAlign
+AllowShortFunctionsOnASingleLine: Inline
+PointerAlignment: Left
